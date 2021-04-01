@@ -12,10 +12,9 @@
       .title-text-content-3-8{
         font-size: 1.875rem;
         line-height: 2.25rem;
-        letter-spacing: 0.05em;
-        font-weight: 800;
+        font-weight: 400;
         margin-bottom: 0.75rem;
-        color: #FFFFFF;
+        color: #212529;
       }
       .caption-text-content-3-8{
         font-size: 1rem;
@@ -328,6 +327,7 @@ hr.hr-footer-2-3 {
     padding-bottom: 3rem;
   }
 }
+
 @media (min-width: 768px) {
   .list-footer-footer-2-3 {
     padding: 5rem 4rem 6rem 4rem;
@@ -414,4 +414,11 @@ hr.hr-footer-2-3 {
                 padding-left: 6rem;
                 padding-right: 6rem;
             }
+        }
+
+        .title-text-content-2-1 {
+          padding-top: 5rem;
+          margin-bottom: 3rem;
+        }
+        .column-content-2-1 {
         }

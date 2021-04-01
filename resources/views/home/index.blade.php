@@ -37,4 +37,68 @@
     
     </section>
 
+    <section style="height: 100%; width: 100%; box-sizing: border-box; background-color: #ffffff">
+      
+      
+
+        <div class="text-center title-text-content-2-1">
+          <h1 class="text-title-content-2-1">Top Popular</h1>
+          <p class="text-caption-content-2-1" style="  margin-left: 3rem; margin-right: 3rem;">You can easily manage your business with a powerful tools</p>
+        </div>
+
+<div class="container">
+        <div class="list-content justify-content-center ">
+          <div class="row">
+            <div class="col-lg-4 column-content-2-1">
+              <div class="card">
+                <img src="{{ asset('images/banner_left.png') }}" class="card-img-top" alt="..." width="150" height="300">
+                <div class="card-body">
+                  <h5 class="card-title">Collaboration Illustration</h5>
+
+                  <div class="d-inline d-lg-flex align-items-center">
+                      <h6 class="align-middle">Illustration</h6>
+                      <h4 class="ms-auto"><span class="badge bg-primary ">Free for you</span></h4>
+                  </div>
+
+                </div>
+              </div>           
+            </div>
+
+            <div class="col-lg-4 column-content-2-1">
+              <div class="card">
+                <img src="{{ asset('images/banner_left.png') }}" class="card-img-top" alt="..." width="150" height="300">
+                <div class="card-body">
+                  <h5 class="card-title">Collaboration Illustration</h5>
+
+                  <div class="d-inline d-lg-flex align-items-center">
+                      <h6 class="align-middle">Illustration</h6>
+                      <h4 class="ms-auto"><span class="badge bg-primary ">Free for you</span></h4>
+                  </div>
+
+                </div>
+              </div>           
+            </div>
+
+            <div class="col-lg-4 column-content-2-1">
+              <div class="card">
+                <img src="{{ asset('images/banner_left.png') }}" class="card-img-top" alt="..." width="150" height="300">
+                <div class="card-body">
+                  <h5 class="card-title">Collaboration Illustration</h5>
+
+                  <div class="d-inline d-lg-flex align-items-center">
+                      <h6 class="align-middle">Illustration</h6>
+                      <h4 class="ms-auto"><span class="badge bg-primary ">Free for you</span></h4>
+                  </div>
+
+                </div>
+              </div>           
+            </div>
+            
+            </div>
+
+          </div>
+        </div>
+
+    </section>
+
 @endsection

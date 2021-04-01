@@ -16,12 +16,14 @@
       .header-4-3 .navbar-dark .navbar-nav .nav-link {
         font-size: 18px;
         color: #161616;
-        font-weight: 300;
+        opacity: .5;
+        font-weight: 400;
         line-height: 1.5rem;
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Raleway', sans-serif;
       }
       .header-4-3 .navbar-dark .navbar-nav .nav-link:hover {
-        color: #9D56F7;
+        color: #00D058;
+        font-weight: 600;
         }
       .header-4-3 .navbar-dark .navbar-nav .active > .nav-link,
       .header-4-3 .navbar-dark .navbar-nav .nav-link.active,
@@ -50,7 +52,7 @@
         font-weight: 600;
         padding: 10px 20px 10px 20px;
         font-size: 16px;
-        background-color: #9D56F7;
+        background-color: #212529;
         transition: .8s;
         font-family: 'Raleway', sans-serif;
       }

@@ -62,7 +62,7 @@
       </div>
 
       <div class="collapse navbar-collapse" id="navbarTogglerDemo-header-4-3">
-        <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+        <ul class="navbar-nav mt-2 mt-lg-0 ms-auto me-auto">
           <li class="nav-item">
             <a class="nav-link" href="#">UI Kits</a>
           </li>
