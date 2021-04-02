@@ -1,30 +1,15 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\Home;
+use App\Http\Controllers\Uikits;
+use App\Http\Controllers\Illustrations;
+use App\Http\Controllers\Pricing;
+use App\Http\Controllers\Ourteam;
 
-/*
-|--------------------------------------------------------------------------
-| Web Routes
-|--------------------------------------------------------------------------
-|
-| Here is where you can register web routes for your application. These
-| routes are loaded by the RouteServiceProvider within a group which
-| contains the "web" middleware group. Now create something great!
-|
-*/
 
-Route::get('/', function () {
-    return view('home.index');
-});
-Route::get('/ui-kits', function () {
-    return view('uikits.index');
-});
-Route::get('/illustrations', function () {
-    return view('illustrations.index');
-});
-Route::get('/pricing', function () {
-    return view('pricing.index');
-});
-Route::get('/our-team', function () {
-    return view('ourteam.index');
-});
+Route::get('/', [Home::class, 'index']);
+Route::get('/ui-kits', [Uikits::class, 'index']);
+Route::get('/illustrations', [Illustrations::class, 'index']);
+Route::get('/pricing', [Pricing::class, 'index']);
+Route::get('/our-team', [Ourteam::class, 'index']);
