@@ -1,5 +1,7 @@
 @extends('layouts.app')
 
+@section('bg-color', '#ffffff')
+
 @section('content')
     
     <section style="height:100%; width: 100%; box-sizing: border-box; background-color: #fdfdfd" class="banner">

@@ -22,3 +22,9 @@ Route::get('/ui-kits', function () {
 Route::get('/illustrations', function () {
     return view('illustrations.index');
 });
+Route::get('/pricing', function () {
+    return view('pricing.index');
+});
+Route::get('/our-team', function () {
+    return view('ourteam.index');
+});

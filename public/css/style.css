@@ -23,12 +23,13 @@
       }
       .header-4-3 .navbar-dark .navbar-nav .nav-link:hover {
         color: #00D058;
-        font-weight: 600;
+        font-weight: 400;
         }
       .header-4-3 .navbar-dark .navbar-nav .active > .nav-link,
       .header-4-3 .navbar-dark .navbar-nav .nav-link.active,
       .header-4-3 .navbar-dark .navbar-nav .nav-link.show,
       .header-4-3 .navbar-dark .navbar-nav .show > .nav-link {
+        color: #00D058;
         font-weight: 600;
       }
       .header-4-3 .navbar-dark .navbar-toggler-icon {

@@ -14,11 +14,11 @@
   </head>
   <body>
 
-  <section style="height:100%; width: 100%; box-sizing: border-box; background-color: #fdfdfd">
+  <section style="height:100%; width: 100%; box-sizing: border-box; background-color: @yield('bg-color')">
         <button onclick="topFunction()" id="myBtn" title="Go to top"><img src="assets/icons/ic_to_top.svg" width="25" alt="" fill  #1876f5;"></button>
     <div class="header-4-3" style="font-family: 'Poppins', sans-serif;">
     <nav class="navbar navbar-expand-lg navbar-dark">
-      <a href="#">
+      <a href="/">
         <img style="margin-right:0.75rem" src="{{ asset('images/logo_sewadah.png') }}" alt="" width="50">
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="modal" data-bs-target="#targetModal-header-4-3">
@@ -39,16 +39,16 @@
             <div class="modal-body" style="padding:	2rem; padding-top: 0; padding-bottom: 0;">
               <ul class="navbar-nav responsive-header-4-3 me-auto mt-2 mt-lg-0">
               <li class="nav-item">
-                <a class="nav-link" href="#">UI Kits</a>
+                <a class="nav-link" href="/ui-kits">UI Kits</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Illustrations</a>
+                <a class="nav-link" href="/illustrations">Illustrations</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
+                <a class="nav-link" href="/pricing">Pricing</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Our Team</a>
+                <a class="nav-link" href="/our-team">Our Team</a>
               </li>
               </ul>
             </div>
@@ -64,16 +64,16 @@
       <div class="collapse navbar-collapse" id="navbarTogglerDemo-header-4-3">
         <ul class="navbar-nav mt-2 mt-lg-0 ms-auto me-auto">
           <li class="nav-item">
-            <a class="nav-link" href="#">UI Kits</a>
+            <a class="nav-link {{  request()->is('ui-kits') ? 'active' : ''  }}" href="/ui-kits">UI Kits</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Illustrations</a>
+            <a class="nav-link {{  request()->is('illustrations') ? 'active' : ''  }}" href="illustrations">Illustrations</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Pricing</a>
+            <a class="nav-link {{  request()->is('pricing') ? 'active' : ''  }}"" href="/pricing">Pricing</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Our Team</a>
+            <a class="nav-link {{  request()->is('our-team') ? 'active' : ''  }}"" href="/our-team">Our Team</a>
           </li>
         </ul>
         <button class="btn btn-fill-header-4-3">Login or Sign Up</button>

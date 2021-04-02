@@ -1,9 +1,18 @@
 @extends('layouts.app')
 
+@section('bg-color', '#f0f0f0')
+
 @section('content')
     
-<h1>
-    Download Illustrations
-</h1>
+<section style="height: 100%; width: 100%; box-sizing: border-box; background-color: #f0f0f0">
+
+    <div class="mx-auto text-center justify-content-center pb-5">
+        <h1 class="title-text-big-header-4-3">Illustration</h1>
+        <h3><span class="badge bg-light text-primary">15 Assets</span></h3>
+    </div>
+
+</section>
+
+
 
 @endsection
