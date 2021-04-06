@@ -51,50 +51,23 @@
 <div class="container">
         <div class="list-content justify-content-center ">
           <div class="row">
+
+            @foreach($user as $data)
             <div class="col-lg-4 column-content-2-1">
               <div class="card">
                 <img src="{{ asset('images/banner_left.png') }}" class="card-img-top" alt="..." width="150" height="300">
                 <div class="card-body">
-                  <h5 class="card-title">Collaboration Illustration</h5>
+                  <h5 class="card-title">{{  $data->username }}</h5>
 
                   <div class="d-inline d-lg-flex align-items-center">
                       <h6 class="align-middle">Illustration</h6>
                       <h4 class="ms-auto"><span class="badge bg-primary ">Free for you</span></h4>
                   </div>
-
                 </div>
               </div>           
             </div>
+            @endforeach
 
-            <div class="col-lg-4 column-content-2-1">
-              <div class="card">
-                <img src="{{ asset('images/banner_left.png') }}" class="card-img-top" alt="..." width="150" height="300">
-                <div class="card-body">
-                  <h5 class="card-title">Collaboration Illustration</h5>
-
-                  <div class="d-inline d-lg-flex align-items-center">
-                      <h6 class="align-middle">Illustration</h6>
-                      <h4 class="ms-auto"><span class="badge bg-primary ">Free for you</span></h4>
-                  </div>
-
-                </div>
-              </div>           
-            </div>
-
-            <div class="col-lg-4 column-content-2-1">
-              <div class="card">
-                <img src="{{ asset('images/banner_left.png') }}" class="card-img-top" alt="..." width="150" height="300">
-                <div class="card-body">
-                  <h5 class="card-title">Collaboration Illustration</h5>
-
-                  <div class="d-inline d-lg-flex align-items-center">
-                      <h6 class="align-middle">Illustration</h6>
-                      <h4 class="ms-auto"><span class="badge bg-primary ">Free for you</span></h4>
-                  </div>
-
-                </div>
-              </div>           
-            </div>
             
             </div>
 
