@@ -3,15 +3,14 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Model\UserModel;
-use App\Models\UserModel as ModelsUserModel;
+use App\Models\UserModel as UserModel;
 
 class Home extends Controller
 {
 
     public function __construct()
     {
-        $this->UserModel = new ModelsUserModel();
+        $this->UserModel = new UserModel();
     }
 
     public function index()
