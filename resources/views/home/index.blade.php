@@ -1,10 +1,11 @@
 @extends('layouts.app')
 
-@section('bg-color', '#ffffff')
+{{-- NAVBAR COLOR --}}
+@section('bg-color', '#f4f5f6')
 
 @section('content')
     
-    <section style="height:100%; width: 100%; box-sizing: border-box; background-color: #fdfdfd" class="banner">
+    <section style="height:100%; width: 100%; box-sizing: border-box; background-color: #f4f5f6" class="banner">
 
     <div>
       <div class="mx-auto d-flex flex-lg-row flex-column hero-header-4-3">
@@ -35,8 +36,8 @@
 
       </div>
     </div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,32L48,64C96,96,192,160,288,154.7C384,149,480,75,576,42.7C672,11,768,21,864,74.7C960,128,1056,224,1152,240C1248,256,1344,192,1392,160L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
     </div>
-    
     </section>
 
     <section style="height: 100%; width: 100%; box-sizing: border-box; background-color: #ffffff">

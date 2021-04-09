@@ -104,8 +104,7 @@
       .title-text-big-header-4-3{
           font-weight: 900;
           margin-bottom: 1rem;
-          font-size: 10px;
-          line-height: 2.5rem;
+          font-size: 45px;
           color: #212529;
           font-family: 'Raleway', sans-serif;
       }
@@ -174,8 +173,7 @@
           padding: 3rem 2rem 5rem 2rem;
         }
         .title-text-big-header-4-3{
-            font-size: 3rem;
-            line-height: 1.2;
+            font-size: 45px;
         }
         .title-text-small-header-4-3{
             font-size: 3rem;
@@ -229,7 +227,7 @@
             margin-bottom: 0;
         }
         .title-text-big-header-4-3{
-            font-size: 3.75rem;
+            font-size: 64px;
             line-height: 1.2;
         }
         .title-text-small-header-4-3{

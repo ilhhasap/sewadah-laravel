@@ -1,5 +1,6 @@
 @extends('layouts.app')
 
+{{-- NAVBAR COLOR --}}
 @section('bg-color', '#f0f0f0')
 
 @section('content')

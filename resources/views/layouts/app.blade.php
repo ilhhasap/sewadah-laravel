@@ -17,7 +17,7 @@
   <section style="height:100%; width: 100%; box-sizing: border-box; background-color: @yield('bg-color')">
         <button onclick="topFunction()" id="myBtn" title="Go to top"><img src="assets/icons/ic_to_top.svg" width="25" alt="" fill  #1876f5;"></button>
     <div class="header-4-3" style="font-family: 'Poppins', sans-serif;">
-    <nav class="navbar navbar-expand-lg navbar-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark justify-content-between">
       <a href="/">
         <img style="margin-right:0.75rem" src="{{ asset('images/logo_sewadah.png') }}" alt="" width="50">
       </a>
@@ -76,7 +76,8 @@
             <a class="nav-link {{  request()->is('our-team') ? 'active' : ''  }}"" href="/our-team">Our Team</a>
           </li>
         </ul>
-        <button class="btn btn-fill-header-4-3">Login or Sign Up</button>
+        <a href="/auth/login" class="btn btn-light bg-transparent me-3">Login</a>
+        <a href="/auth/signup" class="btn btn-fill-header-4-3">Sign Up</a>
       </div>
     </nav>    
 
