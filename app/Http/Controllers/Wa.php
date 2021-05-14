@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 // use App\Models\AsetModel as AsetModel;
 
-class Auth extends Controller
+class Wa extends Controller
 {
 
     public function index()

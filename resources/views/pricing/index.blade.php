@@ -13,9 +13,9 @@
 
             <div class="mx-auto card-content-3-8">
               <div class="card-outline-content-3-8 d-flex flex-column position-relative overflow-hidden h-100">
-                <h2 class="price-title-content-3-8">Startup</h2>
+                <h2 class="price-title-content-3-8">Free For You</h2>
                 <h2 class="price-value-content-3-8 d-flex align-items-center">
-                  <span>$29</span>
+                  <span>Rp. 0</span>
                   <span class="price-duration-content-3-8">/Month</span>
                 </h2>
                 <p class="price-caption-content-3-8">Suitable for those of you<br>

@@ -262,3 +262,62 @@
         padding: 15px;
         border-radius: 150px;
       }
+
+
+
+      #showAsset .text-title-home {
+        font-family: 'Raleway';
+        font-weight: 700;
+      }
+
+      #showAsset .text-caption-home {
+        font-family: 'Raleway';
+        font-weight: 100;
+        color: #949494;
+      }
+
+      /* CARD */
+      .card-asset{
+        font-family: 'Raleway';
+      }
+      .card-asset .card-img-top {
+        border-radius: 10px;
+        background-clip: content-box;
+        transition: .3s
+      }
+      .card-asset .card-img-top:hover {
+        opacity: .3;
+        filter:grayscale(30%);
+        cursor: pointer;
+      }
+
+      .badge-free-for-you {
+        background-color: rgb(159, 230, 160, .3);
+        color: #83da84;
+        font-size: 16px !important;
+        padding: 10px !important;
+
+      }
+      .badge-for-member {
+        background-color: rgb(120, 104, 230, .2);
+        color: #7868e6;
+        font-size: 16px !important;
+        padding: 10px !important;
+      }
+      .badge-special-edition {
+        background-color: rgb(254, 208, 73, .2);
+        color: #fed049;
+        font-size: 16px !important;
+        padding: 10px !important;
+      }
+      .badge-special-edition .ic_lock {
+        color: #fed049;
+      }
+
+      .card-asset .card-body {
+        padding: 20px 5px !important;
+      }
+
+      .card-asset .card-category {
+        color: #949494;
+      }

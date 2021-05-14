@@ -6,7 +6,7 @@
 
 <div class="d-flex flex-column align-items-center h-100 flex-lg-row" style="font-family: 'Poppins', sans-serif;">
     <div class="position-relative d-none d-lg-block h-100 width-left-content-3-5">
-      <img class="position-absolute img-fluid centered-content-3-5" src="http://api.elements.buildwithangga.com/storage/files/2/assets/Empty%20State/EmptyState3/Empty-3-5.png" alt="">                      
+      <img class="position-absolute img-fluid centered-content-3-5" src="http://api.elements.buildwithangga.com/storage/files/2/assets/Empty%20State/EmptyState3/Empty-3-5.png" alt="">
     </div>
     <div class="d-flex mx-auto align-items-left justify-content-left width-right-content-3-5">
       <div class="right-content-3-5">

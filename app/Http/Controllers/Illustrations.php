@@ -3,19 +3,19 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Models\AsetModel as AsetModel;
+use App\Models\AssetModel as AssetModel;
 
 class Illustrations extends Controller
 {
     public function __construct()
     {
-        $this->AsetModel = new AsetModel();
+        $this->AssetModel = new AssetModel();
     }
 
     public function index()
     {
         $data = [
-            'aset' => $this->AsetModel->allDataIllustrations(),
+            'aset' => $this->AssetModel->allDataIllustrations(),
         ];
         return view('illustrations.index', $data);
     }

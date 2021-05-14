@@ -422,14 +422,3 @@ hr.hr-footer-2-3 {
         }
         .column-content-2-1 {
         }
-
-
-    /* ASET DESAIN */
-    .card-img-top {
-      transition: .5s;
-    }
-    .card-img-top:hover {
-      opacity: .3;
-      filter:grayscale(30%);
-      cursor: pointer;
-    }
