@@ -16,6 +16,7 @@ class Uikits extends Controller
     {
         $data = [
             'aset' => $this->AssetModel->allDataUikits(),
+            'listUikits' => $this->AssetModel->listUikits(),
         ];
         return view('uikits.index', $data);
     }

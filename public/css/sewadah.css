@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway:wght@400;500;700;900&display=swap');
+
+/* HOME */
       .modal-backdrop.show{
         background-color: #FEFEFE;
         opacity: 0.6;
@@ -82,25 +84,10 @@
         height: auto;
         width: inherit;
       }
-
-      /* .banner {
-        background: url('../images/banner_image.png');
-        background-repeat: no-repeat;
-        background-size: contain;
-      } */
-
       .left-column-header-4-3{
           margin-bottom: 0.75rem;
           width: 100%;
       }
-      /* .text-caption-header-4-3 {
-          margin-bottom: 2rem;
-          line-height: 1.625;
-          font-size: 0.875rem;
-          line-height: 1.25rem;
-          font-weight: 600;
-          color: #FB6262;
-      } */
       .title-text-big-header-4-3{
           font-weight: 900;
           margin-bottom: 1rem;
@@ -246,10 +233,13 @@
         }
       }
 
-      /* GOTO TOP */
+      /* AKHIR HOME */
+
+
+
+      /* * GOTO TOP */
       #myBtn {
         transition: .5s;
-        display: none;
         position: fixed;
         bottom: 20px;
         right: 30px;
@@ -265,21 +255,14 @@
 
 
 
-      #showAsset .text-title-home {
-        font-family: 'Raleway';
-        font-weight: 700;
-      }
-
-      #showAsset .text-caption-home {
-        font-family: 'Raleway';
-        font-weight: 100;
-        color: #949494;
-      }
-
       /* CARD */
       .card-asset{
         font-family: 'Raleway';
       }
+      .card-asset .card-body {
+        padding: 10px 5px !important;
+      }
+
       .card-asset .card-img-top {
         border-radius: 10px;
         background-clip: content-box;
@@ -290,34 +273,58 @@
         filter:grayscale(30%);
         cursor: pointer;
       }
-
+      .card-asset .card-category {
+        color: #949494;
+      }
       .badge-free-for-you {
         background-color: rgb(159, 230, 160, .3);
         color: #83da84;
-        font-size: 16px !important;
-        padding: 10px !important;
+        font-size: 14px !important;
+        padding: .5rem 1rem !important;
+        font-weight: bold;
 
       }
       .badge-for-member {
         background-color: rgb(120, 104, 230, .2);
         color: #7868e6;
-        font-size: 16px !important;
-        padding: 10px !important;
+        font-size: 14px !important;
+        padding: .5rem 1rem !important;
+        font-weight: bold;
       }
       .badge-special-edition {
-        background-color: rgb(254, 208, 73, .2);
-        color: #fed049;
-        font-size: 16px !important;
-        padding: 10px !important;
+        background-color: #fef3c7;
+        color: #b45309;
+        font-size: 14px !important;
+        padding: .5rem 1rem !important;
+        font-weight: bold;
+      }
+      .badge-indikator.active {
+        background-color: #ebebeb;
+        color: #00d058;
+        font-size: 14px !important;
+        padding: .5rem 1rem !important;
+        font-weight: bold;
+        border-radius: 5px;
+      }
+      .badge-indikator {
+        color: #bfbfbf;
+        font-size: 14px !important;
+        padding: .5rem 1rem !important;
+        font-weight: bold;
+        cursor: pointer;
       }
       .badge-special-edition .ic_lock {
         color: #fed049;
       }
+      /* AKHIR CARD */
 
-      .card-asset .card-body {
-        padding: 20px 5px !important;
+
+
+      /* ADMIN */
+      #adminUikits .text-title {
+          color: #efefef;
+          font-weight: bold;
       }
-
-      .card-asset .card-category {
-        color: #949494;
+      #adminUikits .text-caption {
+          color: #efefef;
       }

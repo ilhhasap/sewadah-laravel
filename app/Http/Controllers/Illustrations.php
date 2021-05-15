@@ -16,6 +16,7 @@ class Illustrations extends Controller
     {
         $data = [
             'aset' => $this->AssetModel->allDataIllustrations(),
+            'listIllustrations' => $this->AssetModel->listIllustrations(),
         ];
         return view('illustrations.index', $data);
     }

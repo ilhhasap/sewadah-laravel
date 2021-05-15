@@ -8,8 +8,13 @@
     <!-- Bootstrap CSS -->
    
     <link rel="stylesheet" href="{{ asset('css/bootstrap/bootstrap.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/style.css') }}">
-      <link rel="stylesheet" href="{{ asset('css/content.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/content.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/sewadah.css') }}">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('images/favicons/apple-touch-icon.png') }}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('images/favicons/favicon-32x32.png') }}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('images/favicons/favicon-16x16.png') }}">
+    <link rel="manifest" href="{{ asset('images/favicons/site.webmanifest') }}">
+
     <title>Sewadah</title>
   </head>
   <body>
@@ -86,5 +91,6 @@
     @yield('content')
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+
 </body>
 </html>

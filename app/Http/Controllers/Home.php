@@ -22,4 +22,15 @@ class Home extends Controller
         ];
         return view('home.index', $data);
     }
+
+    public function detail($judul)
+    {
+        $data = [
+            'detailAsset' => $this->AssetModel->detailAsset($judul),
+        ];
+        return view('detailAsset.index', $data);
+    }
+
+
+
 }

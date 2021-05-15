@@ -31,13 +31,18 @@
       
       
 
-        <div class="text-center title-text-content-2-1">
+        {{-- <div class="text-center title-text-content-2-1">
           <h1 class="text-title-home">Top Popular</h1>
-          <p class="text-caption-home" style="  margin-left: 3rem; margin-right: 3rem;">You can easily build your projects <br> with these cool assets</p>
-        </div>
+        </div> --}}
 
-        <div class="container-fluid px-4">
-          <div class="row">
+        <div class="container-fluid px-4 mt-5">
+          <div class="d-flex flex-row bd-highlight mb-3 justify-content-center">
+            <div class="flex-column flex-column-md px-4 py-2 bd-highlight badge-indikator active me-2">Recommended</div>
+            <div class="flex-column flex-column-md px-4 py-2 bd-highlight badge-indikator ">Top Popular</div>
+            <div class="flex-column flex-column-md px-4 py-2 bd-highlight badge-indikator ms-2">Free for you</div>
+          </div>
+
+          <div class="row mt-4">
     
             @foreach ($allAsset as $data)
             <div class="col-lg-6 col-xl-4 col-md-6 col-12 mb-4">
@@ -46,16 +51,16 @@
                     <div class="card-body">
                       <h5 class="card-title fw-bold">{{ $data->judul }}</h5>
                       <div class="d-flex justify-content-between">
-                      <div class="d-inline">
-                        <p class="card-category">{{ $data->kategori }}</p>
+                      <div class="d-inline card-category pt-2">
+                        {{ $data->kategori }}
                       </div>
                           <div class="d-inline">
                             @if ($data->status == "Free for you") 
-                            <h5 class=""><span class="badge p-2 badge-free-for-you">{{ $data->status }}</span></h5>
+                            <div class="px-4 py-2 rounded-lg badge-free-for-you">{{ $data->status }}</div>
                             @elseif ($data->status == "For Member")
-                            <h5 class="ms-auto"><span class="badge p-2 badge-for-member">{{ $data->status }}</span></h5>
+                            <div class="px-4 py-2 rounded-lg badge-for-member">{{ $data->status }}</div>
                             @elseif ($data->status == "Special Edition")
-                            <h5 class="ms-auto"><span class="badge p-2 badge-special-edition"><span class="p-1 ic_lock"><img src="{{ asset('images/icons/ic_lock.svg') }}" alt="" width="15"></span>{{ $data->status }}</span></h5>
+                            <div class="px-4 py-2 rounded-lg badge-special-edition">{{ $data->status }}</div>
                             @endif
                         </div>
                     </div>
